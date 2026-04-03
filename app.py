@@ -351,4 +351,5 @@ if st.session_state.chat_history:
                 if item["sources"]:
                     for source in item["sources"]:
                         display_name = source["file"].replace("_", " ").replace(".pdf", "").title()
-                        st.markdown(f"📄 **{display_name}** — Page {source['page']}")dir
+                        page_num = source['page']
+                        st.markdown(f"📄 **{display_name}** — Page {page_num}")
