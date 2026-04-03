@@ -1,3 +1,14 @@
+---
+title: KaamKaanoon
+emoji: ⚖️
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.45.1
+app_file: app.py
+pinned: false
+license: mit
+---
 # ⚖️ KaamKaanoon — Indian Employee Rights RAG Assistant
 
 > An AI-powered assistant that helps Indian workers understand their legal rights using official government law documents.
