@@ -1,0 +1,18 @@
+# Secret keys — never push these
+.env
+
+# Virtual environment — too large for GitHub
+venv/
+
+# ChromaDB vector data — rebuilt from PDFs
+vectorstore/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings
+.vscode/
+# PDFs are downloaded automatically at startup
+data/pdfs/*.pdf

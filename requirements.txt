@@ -1,0 +1,32 @@
+# LangChain — core RAG orchestration
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-groq==0.3.2
+langchain-huggingface==0.1.2
+langchain-chroma==0.1.4
+
+# Core — pinned to version compatible with all langchain packages
+langchain-core==0.3.83
+
+# ChromaDB — local vector database
+chromadb==0.5.23
+
+# HuggingFace embeddings — runs on CPU, free
+sentence-transformers==3.4.1
+tokenizers==0.20.3
+
+# PDF loading
+pypdf==5.4.0
+
+# Groq API client
+groq==0.13.1
+
+# Streamlit — frontend UI
+streamlit==1.45.1
+
+# FastAPI — backend API
+fastapi==0.115.12
+uvicorn==0.34.2
+
+# Environment variables
+python-dotenv==1.1.0
