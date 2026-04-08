@@ -14,5 +14,3 @@ __pycache__/
 
 # VS Code settings
 .vscode/
-# PDFs are downloaded automatically at startup
-data/pdfs/*.pdf
